@@ -1,4 +1,4 @@
-package com.michal.examples.i18n.service;
+package com.michal.examples.i18n.util;
 
 
 import com.michal.examples.i18n.dto.LanguageResourceDto;
@@ -11,7 +11,10 @@ import java.util.Map;
 /**
  * @author Michal Remis
  */
-public class ConvertService {
+public class Converter {
+
+    private Converter() {
+    }
 
     public static List<LanguageResourceDto> transformToList(List<I18NMessageEntity> entities) {
         Map<String, LanguageResourceDto> resources = new HashMap<>();

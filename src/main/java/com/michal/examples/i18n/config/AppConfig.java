@@ -19,7 +19,6 @@ public class AppConfig {
         return RestClient.create(builder.build());
     }
 
-    // to avoid @JsonProperty
     @Bean
     public ObjectMapper objectMapper() {
         return new ObjectMapper()
