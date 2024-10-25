@@ -1,7 +1,7 @@
 create table "i18n_messages"
 (
     "id"          varchar(36) primary key,
-    "customer_id" varchar(36)  not null,
+    "customer_id" varchar(36),
     "locale"      varchar(100) not null,
     "module"      varchar(100) not null,
     "key"         varchar(255) not null,
