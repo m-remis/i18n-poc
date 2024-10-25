@@ -1,0 +1,23 @@
+server:
+  servlet:
+    context-path: /api/i18n-service
+  port: 8080
+
+application:
+  name: i18n management service
+  desc: Demo app for basic spring boot application
+
+developer:
+  info:
+    name: Michal Remis
+    linked-in: https://www.linkedin.com/in/michal-remis/
+
+spring:
+  flyway:
+    enabled: true
+    default-schema: i18n
+    schemas: i18n
+  jpa:
+    properties:
+      hibernate:
+        default_schema: i18n
