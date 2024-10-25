@@ -7,7 +7,7 @@
 
 ### i18n Service
 
-#### Simple example application
+#### Simple example application - STILL WORK IN PROGRESS
 
 Purpose of service is to allow clients to consume dynamic resources for multiple 
 languages and modules.
