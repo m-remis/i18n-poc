@@ -211,3 +211,7 @@ Some of the advantages that might not be obvious at first glance:
 
 - **Simplified QA Processes**: A single source of truth for resources allows for easier testing and validation of
   translations, ensuring that updates do not break existing functionality.
+
+This approach would allow us to end up with something like this if high-load traffic needs to be supported:
+
+![swagger](docs/scalability-diagram.svg)
